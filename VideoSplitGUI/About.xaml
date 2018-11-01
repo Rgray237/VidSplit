@@ -1,0 +1,44 @@
+﻿<Window x:Class="VideoSplitGUI.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideoSplitGUI"
+        mc:Ignorable="d"
+        Title="About" Height="200" Width="250" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <TextBlock HorizontalAlignment="Center">
+            Made by Rob Gray 
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                V1.0 2018
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                <Hyperlink NavigateUri="http://www.RobGrayMakes.com" RequestNavigate="Hyperlink_RequestNavigate">
+                www.RobGrayMakes.com
+            </Hyperlink>
+            </TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                Questions?
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                Email <Hyperlink>
+                    RGray237@gmail.com
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                This software uses the application <Hyperlink NavigateUri="http://ffmpeg.org" RequestNavigate="Hyperlink_RequestNavigate"> FFmpeg </Hyperlink> 
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                licensed under the <Hyperlink NavigateUri="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" RequestNavigate="Hyperlink_RequestNavigate"> LGPLv2.1 </Hyperlink>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center">
+                 and its source can be downloaded <Hyperlink NavigateUri="https://ffmpeg.zeranoe.com/builds/" RequestNavigate="Hyperlink_RequestNavigate">here</Hyperlink>
+            </TextBlock>
+        </StackPanel>
+        
+    </Grid>
+</Window>
